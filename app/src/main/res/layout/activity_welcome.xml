@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="27dp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="Assignment for MoneyTap"
+        android:textColor="@android:color/black"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:layout_width="134dp"
+        android:layout_height="132dp"
+        android:layout_above="@+id/searchText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-215dp"
+        android:background="@drawable/wiki_logo" />
+
+    <EditText
+        android:id="@+id/searchText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="215dp"
+        android:gravity="center"
+        android:hint="Search Something on wikipedia" />
+
+    <Button
+        android:id="@+id/searchwiki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="243dp"
+        android:text="Search"
+        android:textColor="@android:color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="Rahul Kumar\n cserahulkumar@gmail.com\n 8936003979"
+        android:textColor="@android:color/black"
+        android:textSize="25dp" />
+
+</RelativeLayout>
